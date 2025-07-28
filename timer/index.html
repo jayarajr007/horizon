@@ -53,6 +53,62 @@
 }
 
 
+    @media screen and (max-width: 400px) {
+
+.countdown {
+    display: flex
+;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 8px;
+    font-size: 2rem;
+}
+
+.countdown div
+{
+background: rgba(0, 255, 255, 0.05);
+    border: 1px solid rgba(0, 255, 255, 0.2);
+    padding: 3px;
+    border-radius: 8px;
+    min-width: 56px;
+}
+
+
+
+    }
+
+    @media screen and (max-width: 299px) {
+    .countdown div {
+        background: rgba(0, 255, 255, 0.05);
+        border: 1px solid rgba(0, 255, 255, 0.2);
+        padding: 3px;
+        border-radius: 8px;
+        min-width: 46px;
+    }
+    .countdown span {
+    display: block;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+  }
+
+    @media screen and (max-width: 269px) {
+
+.countdown small {
+    display: block;
+    font-size: 9px;
+    opacity: 0.6;
+}
+    .countdown div {
+  
+        min-width: 34px;
+    }
+
+    }
+
+
+
             </style>
      </head>
      <body> 
